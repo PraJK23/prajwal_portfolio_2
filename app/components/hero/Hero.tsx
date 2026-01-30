@@ -30,19 +30,23 @@ export default function Hero() {
         transition={{ duration: 1.2, delay: 0.6, ease: "easeOut" }}
         className="mt-8 flex gap-4"
       >
-        <a
-          href="#"
-          className="rounded-md bg-white px-6 py-3 text-sm font-semibold text-black hover:bg-gray-200 transition"
-        >
-          Download Resume
+        <div className="mt-8 flex gap-4">
+            <a
+                href="/Prajwal_K_CV.pdf"
+                target="_blank"
+                className="rounded-md bg-white px-6 py-3 text-sm font-semibold text-black hover:bg-gray-200 transition"
+            >
+                Download Resume
         </a>
 
-        <a
-          href="#"
-          className="rounded-md border border-gray-700 px-6 py-3 text-sm font-semibold hover:border-gray-500 transition"
+         <a
+            href="https://github.com/prajk23"
+            target="_blank"
+            className="rounded-md border border-gray-700 px-6 py-3 text-sm font-semibold hover:border-gray-500 transition"
         >
-          GitHub
+            GitHub
         </a>
+</div>
       </motion.div>
     </section>
   );
